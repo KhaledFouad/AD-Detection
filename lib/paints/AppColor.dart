@@ -32,7 +32,7 @@ class AppColor {
   static Color cardColor = const Color(0xff091A7A);
   static Color baleBlueColor = const Color(0xff2B3A8D);
   static Color baleBlueColor2 = const Color(0xffD6E4FF);
-
+  static Color lightBlue = const Color(0xFF03A9F4);
   static Color successColor = const Color(0xff60C631);
   static Color errorColor = const Color(0xffFF472B);
   static Color yellowColor = const Color(0xffDBB40E);

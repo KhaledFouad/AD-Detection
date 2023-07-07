@@ -1,4 +1,4 @@
-import 'package:bio2/LoginScreen.dart';
+import 'package:bio2/Auth/LoginScreen.dart';
 import 'package:bio2/paints/AppColor.dart';
 import 'package:bio2/paints/desc_paint/desc_paint.dart';
 import 'package:flutter/material.dart';
@@ -91,6 +91,7 @@ class _IntroductionPageState extends State<IntroductionPage> {
                                   context,
                                   MaterialPageRoute(
                                       builder: (context) => const LoginScreen()
+                                      // LoginScreen()
                                       // detectionScreen()
                                       // HomeScreen()
                                       ),
@@ -100,7 +101,7 @@ class _IntroductionPageState extends State<IntroductionPage> {
                               textColor: AppColor.white,
                               fontSize: 16,
                               radius: 1000,
-                              background: AppColor.primaryColor,
+                              background: AppColor.lightBlue,
                             ),
                           ],
                         ),

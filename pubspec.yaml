@@ -45,7 +45,9 @@ dependencies:
   image_picker: ^0.8.6
   gif: ^2.2.0
   path_provider: ^2.0.5
-
+  firebase_core: ^2.14.0
+  firebase_auth: ^4.6.3
+  photo_view: ^0.14.0
 
 dev_dependencies:
   flutter_test:
@@ -71,8 +73,8 @@ flutter:
   uses-material-design: true
   assets:
     - assets/
-    # - assets/images/
-    # - assets/lottie_animations/
+    - assets/images/
+    - assets/lottie_animations/
     # - assets/tflite_models/model/
     # - assets/tflite_models/labels/
   fonts:
