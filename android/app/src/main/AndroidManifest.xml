@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.bio2">
    <application
-        android:label="bio2"
+        android:label="AD Detection"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
